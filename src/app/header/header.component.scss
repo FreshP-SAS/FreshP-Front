@@ -1,0 +1,55 @@
+#f-header {
+	position: absolute;
+	z-index: 100;
+	width: 100%;
+
+	.f-header-container {
+		padding: 1.5rem 2rem;
+		background: transparent;
+		align-items: flex-start;
+
+		.fhc-logo {
+			align-items: end;
+
+			img {
+				height: 40px;
+				width: auto;
+				margin-right: 10px;
+			}
+
+			h1 {
+				font-family: 'Jua';
+				font-size: 38px;
+				color: #fff;
+			}
+		}
+
+		.fhc-log {
+			align-items: center;
+			margin-left: auto;
+
+			a {
+				font-family: 'Raleway';
+				font-weight: 600;
+				color: #fff;
+				margin-right: 20px;
+			}
+
+			button {
+				font-size: 16px;
+				padding: 10px 25px;
+				background-color: #fff;
+				border: 1px solid #359ab3;
+				border-radius: 4px;
+				color: #359ab3;
+				font-family: 'Raleway';
+				font-weight: 600;
+				cursor: pointer;
+			}
+
+			button:hover {
+				background-color: transparent;
+			}
+		}
+	}
+}

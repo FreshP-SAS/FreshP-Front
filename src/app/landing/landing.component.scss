@@ -1,0 +1,135 @@
+#f-landing {
+
+	hr { 
+	    display: block;
+	    margin-top: 0.5em;
+	    margin-bottom: 0.5em;
+	    margin-left: auto;
+	    margin-right: auto;
+	    border-style: inset;
+	    border-width: 1px;
+	    width: 200px;
+	    margin-bottom: 100px;
+	}
+
+	.f-landing-container {
+		position: relative;
+		width: 100%;
+		height: 560px;
+		background-image: url('/public/images/landing-bg.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+
+		.flc-text {
+			width: 800px;
+			text-align: center;
+			left: 0;
+			right: 0;
+			margin: 0 auto;
+
+			h1, h3 {
+				color: #fff;
+			}
+
+			h1 {
+				font-family: 'Raleway';
+				font-weight: 700;
+				font-size: 48px;
+				letter-spacing: 2px;
+				margin-bottom: 20px;
+			}
+
+			h3 {
+				font-family: 'Raleway';
+				font-size: 21px;
+				font-weight: 600;
+				line-height: 30px;
+				margin-bottom: 35px;
+			}
+
+			button {
+				font-family: 'Open Sans';
+				font-size: 19px;
+				color: #fff;
+				padding: 12px 35px;
+				background-color: #359ab3;
+				border: 1px solid #359ab3;
+				border-radius: 4px;
+				cursor: pointer;
+			}
+		}
+	}
+
+	.f-landing-container2 {
+		padding-top: 50px;
+
+		.flc2-body {
+			text-align: center;
+
+			h2 {
+				font-family: 'Open Sans';
+				font-weight: 300;
+				font-size: 42px;
+				color: #222;
+				margin-bottom: 45px;
+			}
+
+			.flc2b-step {
+				max-width: 620px;
+				margin: 0 auto;
+				margin-bottom: 80px;
+				text-align: left;
+
+				.step-picture {
+					width: 250px;
+					height: auto;
+					margin-right: 25px;
+				}
+
+				.flc2bs-info {
+					span, h4, p {
+						font-family: 'Open Sans';
+						color: #222;
+					}
+
+					span {
+						font-size: 21px;
+						padding: 5px 13px;
+						border: 1px solid #86919C;
+						border-radius: 50%;
+						color: #86919C;
+						font-weight: 300;
+					}
+
+					h4 {
+						font-size: 28px;
+						font-weight: 300;
+						margin-top: 25px;
+						margin-bottom: 20px;
+						letter-spacing: 1px;
+					}
+
+					p {
+						font-size: 16px;
+						font-weight: 300;
+						line-height: 26px;
+						letter-spacing: 1px;
+					}
+				}
+			}
+
+			.flc2b-step2 {
+				flex-direction: row-reverse;
+			}
+		}
+	}
+
+	.f-landing-container3 {
+		.flc3-app {
+			width: 100%;
+			img {
+				width: inherit;
+			}
+		}
+	}
+}

@@ -1,0 +1,124 @@
+#f-footer {
+	.f-footer-container {
+		padding: 30px 60px;
+		background-color: #67727D;
+
+		h4 {
+			font-family: 'Raleway';
+			font-size: 21px;
+			color: #86919C;
+			font-weight: 500;
+			margin-bottom: 10px;
+		}
+
+		.ffc-presentation {
+			width: 32%;
+			margin-right: 30px;
+
+			.ffcp-logo {
+				align-items: end;
+				margin-bottom: 15px;
+
+				img {
+					height: 30px;
+					width: auto;
+					margin-right: 10px;
+				}
+
+				h1 {
+					font-family: 'Jua';
+					font-size: 34px;
+					color: #fff;
+				}
+			}
+
+			p {
+				font-family: 'Open Sans';
+				font-size: 16px;
+				color: #fff;
+			}
+		}
+
+		.ffc-about {
+			margin-right: 40px;
+
+			ul {
+				i {
+					margin-right: 10px;
+				}	
+						
+				li {
+					font-family: 'Open Sans';
+					font-size: 16px;
+					color: #fff;
+					margin-bottom: 15px;
+				}
+			}
+
+			a {
+				font-family: 'Open Sans';
+				font-size: 16px;
+				color: #fff;
+			}
+		}
+
+		.ffc-download-app {
+			p {
+				font-family: 'Open Sans';
+				font-size: 16px;
+				font-weight: 300;
+				color: #fff;
+				margin-bottom: 20px;
+			}
+
+			.download-badges {
+				align-items: center;
+
+				.badge-image {
+					width: 150px;
+					height: auto;
+					margin-right: 5px;
+				}
+			}
+		}
+	}
+
+	.ff-copyright {
+		width: 100%;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: #3B9AB2;
+		padding: 0 60px;
+		box-sizing: border-box;
+
+		p {
+			font-family: 'Open Sans';
+			padding: 20px 0px;
+			box-sizing: border-box;
+			color: #fff
+		}
+
+		.social-follow {
+			margin-left: auto;
+			padding-right: 90px;
+			align-items: center;
+
+			img {
+				width: auto;
+				height: 20px;
+				margin-right: 10px;
+			}
+
+			.img-facebook {
+				margin-left: 10px;
+			}
+		}
+
+        .mp-footer-fit {
+            max-width: 1200px;
+            margin: 0 auto;
+            align-items: center;
+        }
+	}
+}
