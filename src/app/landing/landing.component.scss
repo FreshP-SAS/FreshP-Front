@@ -21,7 +21,7 @@
 		background-repeat: no-repeat;
 
 		.flc-text {
-			width: 800px;
+			width: 700px;
 			text-align: center;
 			left: 0;
 			right: 0;
@@ -41,9 +41,9 @@
 
 			h3 {
 				font-family: 'Raleway';
-				font-size: 21px;
+				font-size: 28px;
 				font-weight: 600;
-				line-height: 30px;
+				line-height: 42px;
 				margin-bottom: 35px;
 			}
 
@@ -56,6 +56,23 @@
 				border: 1px solid #359ab3;
 				border-radius: 4px;
 				cursor: pointer;
+			}
+
+			.flct-logo {
+				justify-content: center;
+				align-items: center;
+				margin-bottom: 15px;
+
+				h1 {
+					font-size: 70px;
+					margin-bottom: 0;
+				}
+
+				img {
+					width: auto;
+					height: 120px;
+					margin-right: 10px;
+				}
 			}
 		}
 	}
@@ -126,9 +143,34 @@
 
 	.f-landing-container3 {
 		.flc3-app {
-			width: 100%;
+			background-image: url('/public/images/app-bg.jpg');
+			padding: 80px 20px 0 80px;
+			align-items: center;
+
 			img {
-				width: inherit;
+				margin-right: 60px;
+			}
+
+			.flc3a-download {
+
+				h1 {
+					font-family: 'Open Sans';
+					font-weight: 400;
+					font-size: 32px;
+					color: #222;
+					margin-bottom: 35px;
+				}
+
+				.download-badges {
+					align-items: center;
+					justify-content: center;
+
+					.badge-image {
+						width: 250px;
+						height: auto;
+						margin-right: 5px;
+					}
+				}
 			}
 		}
 	}

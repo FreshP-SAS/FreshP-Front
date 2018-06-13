@@ -6,7 +6,7 @@
   "apps": [
     {
       "root": "src",
-      "outDir": "dist",
+      "outDir": "../FreshP-API/dist",
       "assets": [
         "public/images"
       ],
