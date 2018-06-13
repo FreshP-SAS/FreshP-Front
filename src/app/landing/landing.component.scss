@@ -21,7 +21,7 @@
 		background-repeat: no-repeat;
 
 		.flc-text {
-			width: 700px;
+			max-width: 700px;
 			text-align: center;
 			left: 0;
 			right: 0;
@@ -91,6 +91,10 @@
 				margin-bottom: 45px;
 			}
 
+			.step-picture-mobile {
+				display: none;
+			}
+
 			.flc2b-step {
 				max-width: 620px;
 				margin: 0 auto;
@@ -147,7 +151,7 @@
 			padding: 80px 20px 0 80px;
 			align-items: center;
 
-			img {
+			.phone {
 				margin-right: 60px;
 			}
 
@@ -162,6 +166,7 @@
 				}
 
 				.download-badges {
+					display: flex;
 					align-items: center;
 					justify-content: center;
 
@@ -169,6 +174,103 @@
 						width: 250px;
 						height: auto;
 						margin-right: 5px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	#f-landing {
+		.f-landing-container {
+			height: 420px;
+			padding: 15px;
+			box-sizing: border-box;
+
+			.flc-text {
+
+				h1 {
+					font-size: 36px;
+				}
+
+				h3 {
+					font-size: 21px;
+					margin-bottom: 25px;
+					line-height: 24px;
+				}
+
+				.flct-logo {
+					margin-bottom: 10px;
+
+					h1 {
+						font-size: 36px;
+						margin-bottom: 0;
+					}
+
+					img {
+						width: auto;
+						height: 60px;
+						margin-right: 10px;
+					}
+				}
+			}
+		}
+
+		.f-landing-container2 {
+			padding: 25px 25px 0 25px;
+		}
+
+		.f-landing-container3 {
+			.flc3-app {
+				padding: 80px 20px 80px 20px;
+				box-sizing: border-box;
+
+				.phone {
+					display: none;
+				}
+
+				.flc3a-download {
+					text-align: center;
+
+					h1 {
+						font-size: 24px;
+					}
+
+					.download-badges {
+						display: block;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 442px) {
+	#f-landing {
+		.f-landing-container2 {
+			.flc2-body {
+
+				h2 {
+					font-size: 32px;
+				}
+
+				.step-picture-mobile {
+					display: block;
+					width: 200px;
+					margin: 0 auto;
+					margin-bottom: 35px;
+				}
+
+				.flc2b-step {
+					margin-bottom: 50px;
+
+					.step-picture {
+						display: none;
+					}
+
+					.flc2bs-info {
+						text-align: center;
 					}
 				}
 			}

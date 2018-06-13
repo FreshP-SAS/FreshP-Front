@@ -53,3 +53,13 @@
 		}
 	}
 }
+
+@media only screen and (max-width: 768px) {
+	#f-header {
+		.f-header-container {
+			.fhc-logo {
+				display: none;
+			}
+		}
+	}
+}

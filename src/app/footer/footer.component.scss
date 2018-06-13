@@ -2,7 +2,8 @@
 	.f-footer-container {
 		padding: 30px 60px;
 		background-color: #67727D;
-
+/*		flex-wrap: wrap;
+*/
 		h4 {
 			font-family: 'Raleway';
 			font-size: 21px;
@@ -121,5 +122,40 @@
             margin: 0 auto;
             align-items: center;
         }
+	}
+}
+
+@media only screen and (max-width: 880px) {
+	#f-footer {
+		.f-footer-container {
+			flex-wrap: wrap;
+		}
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	#f-footer {
+		.f-footer-container {
+			padding: 40px 20px;
+
+			.ffc-about {
+				margin-bottom: 30px;
+			}
+		}
+
+		.ff-copyright { 
+			padding: 0 20px;
+
+			.social-follow {
+				margin-left: 0;
+				padding-right: 0;
+			}
+
+			.mp-footer-fit {
+				.copyright-text {
+					padding-bottom: 0;
+				}
+			}
+		}
 	}
 }
