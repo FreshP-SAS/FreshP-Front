@@ -18,7 +18,8 @@
 			}
 
 			h1 {
-				font-family: 'Jua';
+				font-family: 'Raleway';
+				font-weight: 700;
 				font-size: 38px;
 				color: #fff;
 			}
@@ -28,14 +29,44 @@
 			align-items: center;
 			margin-left: auto;
 
+			.tooltipw {
+				width: 110px;
+				top: 0;
+				background-color: #222;
+				opacity: 95%;
+				-webkit-transform: translateY(10px);
+	            -moz-transform: translateY(10px);
+	            -ms-transform: translateY(10px);
+	            -o-transform: translateY(10px);
+	            transform: translateY(10px);
+			}
+
 			a {
+				position: relative;
 				font-family: 'Raleway';
 				font-weight: 600;
 				color: #fff;
 				margin-right: 20px;
+
+				.tooltipw {
+					left: -50px;
+		        }
+			}
+
+			a:hover {	
+        		.tooltipw {
+		            opacity: 1;
+		            pointer-events: auto;
+		            -webkit-transform: translateY(30px);
+		            -moz-transform: translateY(30px);
+		            -ms-transform: translateY(30px);
+		            -o-transform: translateY(30px);
+		            transform: translateY(30px);
+		        }
 			}
 
 			button {
+				position: relative;
 				font-size: 16px;
 				padding: 10px 25px;
 				background-color: #fff;
@@ -49,10 +80,69 @@
 
 			button:hover {
 				background-color: transparent;
+				.tooltipw {
+		            opacity: 1;
+		            pointer-events: auto;
+		            -webkit-transform: translateY(50px);
+		            -moz-transform: translateY(50px);
+		            -ms-transform: translateY(50px);
+		            -o-transform: translateY(50px);
+		            transform: translateY(50px);
+		        }
 			}
 		}
 	}
 }
+
+.tooltipw {
+    display: block;
+    position: absolute;
+    background: black;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 13px;
+    color: #fff;
+    opacity: 0;
+    padding: 3px 15px;
+    border-radius: 4px;
+    pointer-events: none;
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    -o-transform: translateY(10px);
+    transform: translateY(10px);
+    -webkit-transition: all .25s ease-out;
+    -moz-transition: all .25s ease-out;
+    -ms-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    transition: all .25s ease-out;
+    -webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+    -moz-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+    -ms-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+    -o-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+}
+
+.tooltipw:before {
+    bottom: -20px;
+    content: " ";
+    display: block;
+    height: 20px;
+    left: 0;
+    position: absolute;
+}
+
+.tooltipw:after {
+    border-left: solid transparent 6px;
+    border-right: solid transparent 6px;
+    border-bottom: solid #222 6px;
+    top: -5px;
+    content: " ";
+    height: 0;
+    left: 50%;
+    margin-left: -7px;
+    position: absolute;
+} 
 
 @media only screen and (max-width: 768px) {
 	#f-header {
