@@ -62,7 +62,7 @@
 				margin-bottom: 35px;
 			}
 
-			button {
+			a {
 				position: relative;
 				font-family: 'Open Sans';
 				font-size: 19px;
@@ -74,7 +74,7 @@
 				cursor: pointer;
 			}
 
-			button:hover {
+			a:hover {
 				.tooltipw {
 		            opacity: 1;
 		            pointer-events: auto;
@@ -206,6 +206,45 @@
 					font-size: 28px;
 					color: #222;
 					margin-bottom: 35px;
+				}
+
+				.relaisbutton {
+					position: relative;
+					font-family: 'Open Sans';
+					font-size: 16px;
+					color: #fff;
+					padding: 10px 25px;
+					background-color: #359ab3;
+/*					border: 1px solid #359ab3;
+*/					border-radius: 4px;
+					cursor: pointer;
+				}
+
+				.ebutton {
+					position: relative;
+					font-size: 16px;
+					padding: 10px 25px;
+					background-color: #fff;
+					border: 1px solid #359ab3;
+					border-radius: 4px;
+					color: #359ab3;
+					font-family: 'Raleway';
+					font-weight: 600;
+					cursor: pointer;
+					margin: 0 50px;
+				}
+
+				.ebutton:hover {
+					background-color: transparent;
+					.tooltipw {
+			            opacity: 1;
+			            pointer-events: auto;
+			            -webkit-transform: translateY(50px);
+			            -moz-transform: translateY(50px);
+			            -ms-transform: translateY(50px);
+			            -o-transform: translateY(50px);
+			            transform: translateY(50px);
+			        }
 				}
 
 				.download-badges {
